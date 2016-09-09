@@ -1,0 +1,23 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Boilerplate"
+    },
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/version": {
+            "get": {
+                "summary": "Version",
+                "description": "Returns app version",
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/server.js",
+    "scripts": {
+        "start": "node dist/server.js",
+        "build": "gulp",
+        "test": "mocha -r babel-register test/unit/**"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-preset-es2015": "^6.14.0",
+        "babel-register": "^6.14.0",
+        "chai": "^3.5.0",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2",
+        "gulp-filter": "^4.0.0",
+        "gulp-sourcemaps": "^1.6.0",
+        "mocha": "^3.0.2"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "swagger-tools": "^0.10.1",
+        "swaggerize-express": "^4.0.5"
+    }
+}
